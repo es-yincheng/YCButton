@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "YCButton.h"
-#import "CodeViewController.h"
 
 @interface ViewController ()
 
@@ -26,8 +25,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)jumpTo:(YCButton *)sender {
-    CodeViewController *codeVC = [[CodeViewController alloc] init];
-    [self.navigationController pushViewController:codeVC animated:YES];
-}
 @end

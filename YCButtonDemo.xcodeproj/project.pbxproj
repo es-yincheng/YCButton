@@ -14,10 +14,6 @@
 		4E02ABBF1C4487CC008026A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E02ABBE1C4487CC008026A3 /* Assets.xcassets */; };
 		4E02ABC21C4487CC008026A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E02ABC01C4487CC008026A3 /* LaunchScreen.storyboard */; };
 		4E02ABCC1C44882B008026A3 /* YCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E02ABCB1C44882B008026A3 /* YCButton.m */; };
-		4E02ABD01C44E40B008026A3 /* YCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E02ABCF1C44E40B008026A3 /* YCImageView.m */; };
-		4E02ABD31C44E556008026A3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E02ABD21C44E556008026A3 /* icon.png */; };
-		4E02ABD61C44E7D6008026A3 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E02ABD51C44E7D6008026A3 /* CodeViewController.m */; };
-		4E02ABDA1C44ED0F008026A3 /* UIImage+YCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E02ABD91C44ED0F008026A3 /* UIImage+YCImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +29,6 @@
 		4E02ABC31C4487CC008026A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E02ABCA1C44882A008026A3 /* YCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCButton.h; sourceTree = "<group>"; };
 		4E02ABCB1C44882B008026A3 /* YCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCButton.m; sourceTree = "<group>"; };
-		4E02ABCE1C44E40B008026A3 /* YCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCImageView.h; sourceTree = "<group>"; };
-		4E02ABCF1C44E40B008026A3 /* YCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCImageView.m; sourceTree = "<group>"; };
-		4E02ABD21C44E556008026A3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		4E02ABD41C44E7D6008026A3 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
-		4E02ABD51C44E7D6008026A3 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
-		4E02ABD81C44ED0F008026A3 /* UIImage+YCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YCImage.h"; sourceTree = "<group>"; };
-		4E02ABD91C44ED0F008026A3 /* UIImage+YCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YCImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +45,6 @@
 		4E02ABA61C4487CC008026A3 = {
 			isa = PBXGroup;
 			children = (
-				4E02ABD71C44ECE3008026A3 /* Category */,
-				4E02ABD11C44E550008026A3 /* resource */,
-				4E02ABCD1C44E3F3008026A3 /* YCImageView */,
 				4E02ABC91C4487EB008026A3 /* YCButton */,
 				4E02ABB11C4487CC008026A3 /* YCButtonDemo */,
 				4E02ABB01C4487CC008026A3 /* Products */,
@@ -80,8 +66,6 @@
 				4E02ABB61C4487CC008026A3 /* AppDelegate.m */,
 				4E02ABB81C4487CC008026A3 /* ViewController.h */,
 				4E02ABB91C4487CC008026A3 /* ViewController.m */,
-				4E02ABD41C44E7D6008026A3 /* CodeViewController.h */,
-				4E02ABD51C44E7D6008026A3 /* CodeViewController.m */,
 				4E02ABBB1C4487CC008026A3 /* Main.storyboard */,
 				4E02ABBE1C4487CC008026A3 /* Assets.xcassets */,
 				4E02ABC01C4487CC008026A3 /* LaunchScreen.storyboard */,
@@ -106,32 +90,6 @@
 				4E02ABCB1C44882B008026A3 /* YCButton.m */,
 			);
 			path = YCButton;
-			sourceTree = "<group>";
-		};
-		4E02ABCD1C44E3F3008026A3 /* YCImageView */ = {
-			isa = PBXGroup;
-			children = (
-				4E02ABCE1C44E40B008026A3 /* YCImageView.h */,
-				4E02ABCF1C44E40B008026A3 /* YCImageView.m */,
-			);
-			path = YCImageView;
-			sourceTree = "<group>";
-		};
-		4E02ABD11C44E550008026A3 /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				4E02ABD21C44E556008026A3 /* icon.png */,
-			);
-			path = resource;
-			sourceTree = "<group>";
-		};
-		4E02ABD71C44ECE3008026A3 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				4E02ABD81C44ED0F008026A3 /* UIImage+YCImage.h */,
-				4E02ABD91C44ED0F008026A3 /* UIImage+YCImage.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E02ABD31C44E556008026A3 /* icon.png in Resources */,
 				4E02ABC21C4487CC008026A3 /* LaunchScreen.storyboard in Resources */,
 				4E02ABBF1C4487CC008026A3 /* Assets.xcassets in Resources */,
 				4E02ABBD1C4487CC008026A3 /* Main.storyboard in Resources */,
@@ -206,9 +163,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E02ABD01C44E40B008026A3 /* YCImageView.m in Sources */,
-				4E02ABD61C44E7D6008026A3 /* CodeViewController.m in Sources */,
-				4E02ABDA1C44ED0F008026A3 /* UIImage+YCImage.m in Sources */,
 				4E02ABBA1C4487CC008026A3 /* ViewController.m in Sources */,
 				4E02ABCC1C44882B008026A3 /* YCButton.m in Sources */,
 				4E02ABB71C4487CC008026A3 /* AppDelegate.m in Sources */,
@@ -359,6 +313,7 @@
 				4E02ABC81C4487CC008026A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
